@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico-G.png" type="image/x-icon">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário Básico</h1>
+    </header>
+    <form action="cadastro" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" required placeholder="Digite seu Nome" maxlength="30">
+            </div>
+            <div>
+                <label for="isobrenome">Sobrenome: </label>
+                <input type="text" name="sobrenome" id="isobrenome" required placeholder="Digite seu Sobrenome" maxlength="50">
+            </div>
+            <div>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" required placeholder="Digite seu E-mail" maxlength="60" size="30">
+            </div>
+            <div>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" required placeholder="(xx) xxxxx-xxxx" max="11">
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
