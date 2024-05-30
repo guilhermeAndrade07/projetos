@@ -8,15 +8,36 @@
 
 
 header {
-    background-color: rgba(0, 77, 0, 0.692);
+    background-color: gray;
     text-align: center;
     padding: 30px;
+}
+
+body {
+    background-color: lightgray;
 }
 
 form{
     padding: 20px;
 }
 
+fieldset {
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 div {
     padding: 5px;
+}
+
+.botao {
+    text-align: center;
+    padding: 20px;
 }

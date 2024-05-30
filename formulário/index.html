@@ -11,27 +11,53 @@
     <header>
         <h1>Formulário Básico</h1>
     </header>
-    <form action="cadastro" method="post" autocomplete="on">
+    <form action="cadastro.html" method="post" autocomplete="on">
         <fieldset>
             <legend>Dados Pessoais</legend>
             <div>
-                <label for="inome">Nome: </label>
-                <input type="text" name="nome" id="inome" required placeholder="Digite seu Nome" maxlength="30">
+                <label for="inome" class="bold">Nome: </label>
+                <input type="text" name="nome" id="inome" required 
+                placeholder="Digite seu Nome" maxlength="30" autocomplete="name">
             </div>
             <div>
-                <label for="isobrenome">Sobrenome: </label>
-                <input type="text" name="sobrenome" id="isobrenome" required placeholder="Digite seu Sobrenome" maxlength="50">
+                <label for="isobrenome" class="bold">Sobrenome: </label>
+                <input type="text" name="sobrenome" id="isobrenome" required 
+                placeholder="Digite seu Sobrenome" maxlength="50" >
             </div>
             <div>
-                <label for="iemail">E-mail</label>
-                <input type="email" name="email" id="iemail" required placeholder="Digite seu E-mail" maxlength="60" size="30">
+                <label for="iemail" class="bold">E-mail: </label>
+                <input type="email" name="email" id="iemail" required 
+                placeholder="Digite seu E-mail" maxlength="60" size="28" autocomplete="email">
             </div>
             <div>
-                <label for="itel">Telefone</label>
-                <input type="tel" name="tel" id="itel" required placeholder="(xx) xxxxx-xxxx" max="11">
+                <label for="itel" class="bold">Telefone: </label>
+                <input type="tel" name="tel" id="itel" required 
+                autocomplete="tel" placeholder="(xx)xxxxx-xxxx" size="15" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" maxlength="15">
+            </div>
+            <div>
+                <label for="sexo" class="bold">Sexo:</label>
+                <input type="radio" name="sexo" id="isexom"> <label for="isexom">Masculino</label>
+                <input type="radio" name="sexo" id="isexof"><label for="isexof">Feminino</label>
+                <input type="radio" name="sexo" id="isexoo"><label for="isexoo">Outro...</label>
+            </div>
+            <div>
+                <label for="iprof" class="bold">Profissão: </label>
+                <input type="text" name="prof" id="iprof" list="lstprof" required placeholder="Coloque sua Profissão">
+                <datalist id="lstprof">
+                    <option>Administrador</option>
+                    <option>Desenvolvedor</option>
+                    <option>Jogador</option>
+                    <option>RH</option>
+                    <option>Professor</option>
+                    <option>Logista</option>
+                    <option>Advogado</option>
+                    <option>Autonomo</option>
+                    <option>Marketing</option>
+                    <option>Jornalista</option>
+                </datalist>
             </div>
         </fieldset>
-        <div>
+        <div class="botao">
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </div>
