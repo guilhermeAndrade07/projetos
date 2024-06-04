@@ -70,7 +70,7 @@ nav a:hover {
 main {
    background-color: white;
    min-width: 300px;
-   max-width: 1000px;
+   max-width: 900px;
    margin: auto;
    margin-bottom: 20px;
    padding: 25px;
@@ -106,7 +106,8 @@ main img {
    padding: 5px;
    width: 300px;
    height: 400px;
-   position: relative;
+   display: block;
+   margin: auto;
    outline: 8px solid var(--cor5);
    background-color: var(--cor3);
 }
