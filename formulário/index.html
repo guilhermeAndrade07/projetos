@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico-G.png" type="image/x-icon">
     <title>Forms</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media-query.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <header>
@@ -30,6 +30,12 @@
                 <div class="dados">
                     <label for="isenha">Crie sua senha: </label>
                     <input type="password" name="senha" id="isenha" required placeholder="Crie sua senha aqui" minlength="8" maxlength="20">
+                </div>
+                <div>
+                    <label class="bold" for="sexo">Sexo: </label>
+                    <input type="radio" name="sexo" id="isxmasc"> <label for="isxmasc">Masculino</label>
+                    <input type="radio" name="sexo" id="isxfem"> <label for="isxfem">Feminino</label>
+                    <input type="radio" name="sexo" id="isxoutro"> <label for="isxoutro">Outro...</label>
                 </div>
                 <div id="botao"><input class="enviar" type="submit" value="Enviar"></div>
             </form>
