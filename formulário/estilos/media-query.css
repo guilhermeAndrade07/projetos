@@ -3,7 +3,6 @@
 @media screen and (min-width: 992px) {
     body {
         background-image: url(../computer.jpg.jpg);
-        background-repeat: no-repeat;
         background-size: cover;
     }
 
@@ -16,6 +15,7 @@
 
     .enviar {
         background-color: #174726;
+        margin-top: 15px;
     }
 }
 
