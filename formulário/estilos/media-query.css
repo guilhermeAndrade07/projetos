@@ -2,12 +2,22 @@
 
 @media screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(to top, #174726, #35A056);
+        background-image: url(../computer.jpg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
-    
+
     #forms {
         display: block;
         width: 380px;
         height: 420px;
+        background-color: rgba(196, 0, 196, 0.849);
+        transition: width 0.5s, height 0.5s;
+        transition-timing-function: ease;
+    }
+
+    .enviar {
+        background-color: #174726;
     }
 }
+
