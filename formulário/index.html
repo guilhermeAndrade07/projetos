@@ -37,9 +37,14 @@
                     <input type="radio" name="sexo" id="isxfem"> <label for="isxfem">Feminino</label>
                     <input type="radio" name="sexo" id="isxoutro"> <label for="isxoutro">Outro...</label>
                 </div>
-                <div id="botao"><input class="enviar" type="submit" value="Enviar"></div>
+                <div id="botao"><input onclick="enviado()" class="enviar" type="submit" value="Enviar"></div>
             </form>
         </section>
     </main>
+    <script>
+        function enviado() {
+            window.alert('Formulário enviado com sucesso!')
+        }
+    </script>
 </body>
 </html>
