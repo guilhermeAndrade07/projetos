@@ -79,7 +79,6 @@ main h1{
 main p {
     padding: 15px;
     text-align: center;
-    display: inline-block;
 }
 
 main p > img {
