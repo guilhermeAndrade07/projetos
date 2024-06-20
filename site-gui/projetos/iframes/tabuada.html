@@ -47,10 +47,11 @@
             padding: 1px;
         }
 
-        select{
+        #res{
             display: block;
             margin: auto;
             margin-top: 15px;
+            text-align: center;
         }
     </style>
 </head>
@@ -61,16 +62,14 @@
             <p>Digite um número ao qual deseja saber a tabuada</p>
             <label for="txtn"> Número: </label> <input type="number" name="num"id="txtn" placeholder="Digite o número" class="texto"> <input type="submit" value="Gerar Tabuada" onclick="tabuada()" class="botao">
         </div>
-        <div>
-            <select name="tabuada" id="seltab" size="10">
-                <option>Digite um número acima</option>
-            </select>
+        <div id="res">
+            Esperando o numero...
         </div>
     </section>
     <script>
         function tabuada() {
     let num = document.getElementById('txtn')
-    let tab = document.getElementById('seltab')
+    let tab = document.getElementById('res')
     if (num.value.lenght == 0) {        
         window.alert('Digite um número, por favor!')
     } else {
