@@ -45,6 +45,11 @@ section {
     padding: 1px;
 }
 
+.limpar {
+    background-color: #83e1ad;
+    padding: 1px;
+}
+
 #res{
     display: block;
     margin: auto;

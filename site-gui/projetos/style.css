@@ -4,6 +4,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
+@media screen and (min-width: 768px) {
+    iframe{
+        width: 500px;
+    }
+    .tabuada {
+        display: block;
+        margin: auto;
+    }
+    
+    .verificador{
+        display: block;
+        margin: auto;
+    }
+}
+
 :root {
     --fonte-destaque: 'Briem Hand', cursive;
     --fonte-padrao: Arial, Helvetica, sans-serif;

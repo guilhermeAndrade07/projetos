@@ -57,11 +57,11 @@ h3 {
 }
 
 .botao {
-    width: 90%;
+    width: 80%;
     padding: 5px;
     font-weight: bold;
     background-color: rgba(0, 224, 0, 0.651);
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     display: block;
     margin: auto;
 }

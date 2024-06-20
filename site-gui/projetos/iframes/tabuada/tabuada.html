@@ -11,10 +11,12 @@
     <section>
         <div class="num">
             <p>Digite um número ao qual deseja saber a tabuada</p>
-            <label for="txtn"> Número: </label> <input type="number" name="num"id="txtn" placeholder="Digite o número" class="texto"> <input type="button" value="Gerar Tabuada" onclick="tabuada()" class="botao">
+            <label for="txtn"> Número: </label> <input type="number" name="num"id="txtn" placeholder="Digite o número" class="texto"> 
+            <input type="button" value="Gerar Tabuada" onclick="tabuada()" class="botao"> 
+            <input type="reset" value="Limpar" onclick="limpar()" class="limpar">
         </div>
         <div id="res">
-            Esperando o número...
+            Esperando um número...
         </div>
     </section>
     <script>
@@ -36,6 +38,11 @@
         }
     } 
 }
+
+    function limpar() {
+        res.innerHTML = ' '
+        res.innerHTML += 'Esperando um número...'
+    }
     </script>
 </body>
 </html>
