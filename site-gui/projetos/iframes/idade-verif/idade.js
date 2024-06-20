@@ -1,14 +1,17 @@
 function verificar() {
     var data= new Date()
     var ano = data.getFullYear()
-    var nome = document.getElementsById('inome')
+    const name = document.getElementById('inome').value
     var nscm = document.getElementById('iano')
     var res = document.getElementById('resultado')
     
 
-    if (nscm.value.lenght == ' ' || Number(nscm.value) > ano) {
-        window.alert('Verifique seu dados!!')
-    } else
+    if (nscm.value.length == ' ' || Number(nscm.value) > ano) {
+        window.alert("Verifique seu dados!!")
+        res.innerHTML = ' '
+    } else {
         var idade = ano - Number(nscm.value)
-        res.innerHTML =  `${nome} tem ${idade} anos de idade`
+        document.getElementById('resultado').textContent= `${name} tem ou irá completar ${idade} anos de idade em ${ano}.`
+    }
+    
 }

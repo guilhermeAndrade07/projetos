@@ -9,16 +9,17 @@
 <body>
     <h1>Verificador de Idade</h1>
     <section>
+        <h3>Digite seus Dados abaixo: </h3>
         <div>
-            <p>
+            <p class="texto1">
                 Nome: <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required>
             </p>
-            <p>
-                Nascimento: <input type="number" name="ano" id="iano" required placeholder="Ano de Nascimento">
+            <p class="texto2">
+                Nascimento: <input type="number" name="ano" id="iano"  placeholder="Ano de Nascimento" required>
             </p>
-            <input type="button" value="Verificador" onclick="verificar()">
+            <input type="button" value="Verificador" onclick="verificar()" class="botao">
         </div>
-        <div id="resultado"> </div>
+        <div id="resultado"></div>
     </section>
     <script src="idade.js"></script>
 </body>
