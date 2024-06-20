@@ -79,6 +79,7 @@ main h1{
 main p {
     padding: 15px;
     text-align: center;
+    display: inline-block;
 }
 
 main p > img {
@@ -114,7 +115,5 @@ footer {
     color: white;
     padding: 10px;
     text-align: center;
-
     bottom: 0;
-
 }
