@@ -78,33 +78,25 @@ main h1{
 
 main p {
     padding: 15px;
-    margin-bottom: 15px;
-    margin-top: 15px;
     text-align: center;
-    display: inline-block;
-
 }
 
 main p > img {
-    height: 30px;
-    width: 30px;
-    padding-top: 5px;
+    height: 40px;
+    width: 40px;
+    padding-top: 20px;
 }
 
 main p > a {
     text-decoration: none;
     color: var(--cor4);
-    padding: 8px;
-    font-size: 19px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 main p > a:hover {
     text-decoration: underline;
     font-size: 1.1em;
-}
-
-#links {
-    text-align: center;
 }
 
 .tabuada {
