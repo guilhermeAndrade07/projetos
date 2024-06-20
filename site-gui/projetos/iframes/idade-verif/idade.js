@@ -1,14 +1,14 @@
 function verificar() {
-    let data = new Date()
-    let ano = data.getFullYear()
-    let nm = document.getElementById('inome')
-    let nscm = document.getElementById('inasc')
-    let resultado = document.getElementById('resultado')
-}
-if (nscm.value.length === 0 || Number(nscm.value) > ano) {
-    window.alert('Verifique seu dados!!')
-} else {
-    let idade = ano - Number(nscm.value)
+    var data= new Date()
+    var ano = data.getFullYear()
+    var nome = document.getElementsById('inome')
+    var nscm = document.getElementById('iano')
+    var res = document.getElementById('resultado')
     
-    resultado.innerHTML = `${nm} tem ${idade}`
+
+    if (nscm.value.lenght == ' ' || Number(nscm.value) > ano) {
+        window.alert('Verifique seu dados!!')
+    } else
+        var idade = ano - Number(nscm.value)
+        res.innerHTML =  `${nome} tem ${idade} anos de idade`
 }
