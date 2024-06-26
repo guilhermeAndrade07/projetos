@@ -96,25 +96,39 @@ main h1{
     color: var(--cor4);
 }
 
-main p {
-    padding: 15px;
+.repositorios {
     text-align: center;
 }
 
-main p > img {
-    height: 40px;
-    width: 40px;
+.repositorios h1 {
+    font-size: 2em;
+    text-indent: 10px;
+    padding: 20px;
+    font-family: var(--fonte-2);
+    text-align: center;
+    color: var(--cor4);
+}
+
+#links p {
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+#links p > img {
+    height: 30px;
+    width: 30px;
     padding-top: 20px;
 }
 
-main p > a {
+#links p > a {
     text-decoration: none;
     color: var(--cor4);
     padding: 10px;
     font-size: 20px;
 }
 
-main p > a:hover {
+#links p > a:hover {
     text-decoration: underline;
     font-size: 1.1em;
 }
