@@ -5,8 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 @media screen and (min-width: 768px) {
+    .projetos {
+        display: block;
+        margin: auto;
+        margin-right: 60px;
+    }
+    
     iframe{
-        width: 500px;
+        width: 490px;
     }
     .tabuada {
         display: block;
@@ -21,6 +27,7 @@
     .calculadora {
         display: block;
         margin: auto;
+        margin-bottom: 10px;
     }
 }
 
@@ -142,19 +149,19 @@ main h1{
 }
 
 .verificador {
-        width: 400px;
-        display: block;
-        margin: auto;
-        margin-bottom: 10px;
-        margin-top: 20px;
+    width: 400px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .calculadora {
     width: 400px;
-        display: block;
-        margin: auto;
-        margin-bottom: 10px;
-        margin-top: 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;    
+    margin-top: 20px;
 }
 
 iframe{
