@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #00572d;
+    background-color: #ff7d7d;
 }
 
 header > h1 {
@@ -23,7 +23,15 @@ header > h1 {
 section > div.pergunta{
     text-align: center;
     color: white;
-    margin: 70px 0px;
+    margin: 20px 0px;
+}
+
+section > div.video{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 section > div.btn {

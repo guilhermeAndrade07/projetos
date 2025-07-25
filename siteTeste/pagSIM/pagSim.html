@@ -13,27 +13,28 @@
         </header>
         <section>
             <div class="pergunta">
-                <h2>YASMIM ALVES FURLANETTO PASCUARELLO</h2>
-                <h2>Você aceita namorar comigo?</h2>
+                <h2>Te Amo amor</h2>
+            </div>
+            <div class="video">
+                <iframe width="350" height="230" src="https://www.youtube.com/embed/g0IDYUlFn5I?si=HlPUOrmhbAr7szSd&amp;start=105" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="btn">
-                <button class="botao" id="simBtn" >SIM</button>
-                <button class="botao">NÃO</button>
+                <button class="botao" id="naoBtn">Voltar</button>
             </div>
         </section>
     </div>
 
     <script>
     const tela = document.getElementById('tela');
-    const simBtn = document.getElementById('simBtn');
+    const naoBtn = document.getElementById('naoBtn');
 
-    simBtn.addEventListener('click', () => {
+
+    naoBtn.addEventListener('click', () => {
         tela.classList.add('fade-out');
         setTimeout(() => {
-        window.location.href = "../pagSim/pagSim.html";
+        window.location.href = "../pag05/pag05.html";
         }, 700);
     });
-
     </script>
 
 </body>

@@ -34,19 +34,12 @@ section > div.btn {
 }
 
 button{
-    margin: 20px 50px;
+    margin: 20px 40px;
     width: 120px;
     height: 60px;
     background-color: black;
     border-radius: 10px;
     border: none;
-}
-
-button > a {
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    font-size: 2em;
 }
 
 button:hover {
@@ -55,7 +48,16 @@ button:hover {
     height: 50px;
 }
 
-button > a > img {
+button > img {
     height: 230px;
     width: 160px;
+}
+
+.tela {
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-out {
+    opacity: 0;
+    transform: translateY(-20px);
 }
